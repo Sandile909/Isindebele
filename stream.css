@@ -1,0 +1,28 @@
+.streaming{
+display: none;
+padding: 4%;
+text-align: center;
+background: yellow;
+box-shadow: 0 0 4px black;
+border-bottom: 6px solid red;
+}
+.streaming h5{
+font-size: 1.2rem;
+}
+.streaming div{
+width: 100%;
+gap: 2%;
+margin-top: 2%;
+display: flex;
+padding: 6% 4%;
+margin: 0 auto;
+}
+.streaming button{
+width: 47%;
+height: 4vh;
+border-radius: 4px;
+background: lightblue;
+}
+.streaming button:hover{
+background: dodgerblue;
+}

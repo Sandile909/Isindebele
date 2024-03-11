@@ -1,0 +1,35 @@
+.music{
+display: none;
+padding: 4%;
+text-align: center;
+background: yellow;
+box-shadow: 0 0 4px black;
+border-bottom: 6px solid red;
+}
+.musicHead{
+padding: 4%;
+}
+.downloadMusic{
+padding: 2%;
+}
+.downloadMusic button{
+height: 4vh;
+padding: 0.5%;
+font-size: 1.5rem;
+background: dodgerblue;
+}
+a{
+text-decoration: none;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+@media screen and (min-width:768px){
+.music button{
+height: 2vh;
+width: 15%;
+font-size: 1.8rem;
+}
+.musicHead{
+padding: 2%;
+}
+}

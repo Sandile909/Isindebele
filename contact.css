@@ -1,0 +1,60 @@
+.contactForm{
+background: yellow;
+border-bottom: 6px solid red;
+padding: 4%;
+text-align: center;
+display: none;
+}
+input, select, textarea{
+width: 90%;
+margin-top: 1%;
+padding: 2%;
+border-radius: 6px;
+background: white;
+color: black;
+border: 2px solid black;
+}
+input::placeholder{
+color: black;
+font-weight: bolder;
+}
+textarea::placeholder{
+color: black;
+font-weight: bolder;
+}
+select{
+width: 95%;
+font-weight: bolder;
+border: 2px solid black;
+}
+input, select{
+height: 4vh;
+}
+option{
+font-weight: bolder;
+}
+textarea{
+resize: none;
+}
+h4{
+padding: 4%;
+text-align: start;
+}
+.contactForm button{
+width: 95%;
+height: 4vh;
+background: dodgerblue;
+color: white;
+font-weight: bolder;
+border-radius: 6px;
+margin-top: 1%;
+border: 2px solid black;
+}
+@media screen and (min-width: 768px){
+input{
+height: 3vh;
+}
+select, .contactForm button{
+width: 94.5%;
+}
+}

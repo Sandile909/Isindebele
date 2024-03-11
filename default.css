@@ -1,0 +1,70 @@
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+margin: 0;
+padding: 0;
+outline: none;
+border: none;
+}
+body{
+background: white;
+box-sizing: border-box;
+}
+button, img{
+cursor: pointer;
+transition: 0.3s;
+}
+header h2{
+padding: 4%;
+font-weight: 1000;
+box-shadow: 0 0 8px black;
+text-shadow: 0.5px 0.6px red;
+}
+section{
+margin-top: 4%;
+border-top: 8px solid red;
+border-bottom: 8px solid red;
+}
+section div{
+padding: 4%;
+display: flex;
+gap: 1%;
+text-align: center;
+background: yellow;
+border-top: 8px solid blue;
+border-bottom: 8px solid blue;
+}
+section div button{
+width: 19%;
+padding: 2%;
+height: 6vh;
+border: 2px solid skyblue;
+border-radius: 5px;
+font-weight: bolder;
+background: skyblue;
+}
+section div button:hover{
+background: dodgerblue;
+}
+footer{
+padding: 2%;
+display: none;
+text-align: center;
+background: white;
+box-shadow: 0 0 4px;
+cursor: pointer;
+}
+footer h4{
+text-align: center;
+}
+@media screen and (min-width: 768px){
+section h3{
+margin-top: 3.5%;
+}
+section div button{
+height: 4.5vh;
+}
+footer{
+padding: 1%;
+text-align: center;
+}
+}
